@@ -1,3 +1,6 @@
+*{
+    background-color: rgb(237, 234, 234);
+}
 header{
     position : fixed;
     top: 0;
@@ -29,7 +32,7 @@ h1{
 
 #main{
     position: absolute;
-    top: 150px;
+    top: 110px;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -48,22 +51,62 @@ p{
 }
 ul{
     font-size: x-large;
-    padding-left: 40%;
+    padding-left: 45%;
 
     
 }
 h3{
-    padding-left: 38%;
+    padding-left: 44%;
     font-size: x-large;
 }
 
 
 .section{
-    width: 60%;
-    min-height: 100%;
+    width: 100%;
+    min-height: 120%;
 }
 h2{
     font-size: 3em;
     font-weight: 500;
     text-align: center;
+}
+#js{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#html{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#css{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#python{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#sql{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#node{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#front{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#back{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
